@@ -5,11 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "build": "nodemon index.js"
+    "build": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^3.0.1"
   }
 }
