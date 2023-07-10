@@ -15,8 +15,3 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run test
-      - uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: .
