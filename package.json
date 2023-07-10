@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "your-test-command-or-test-runner",
+    "test": "echo test",
     "build": "nodemon index.js"
   },
   "author": "",
